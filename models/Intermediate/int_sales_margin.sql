@@ -1,4 +1,6 @@
 SELECT
+    date_date,
+    orders_id,
     a.quantity,
     a.revenue,
     b.purchase_price,
