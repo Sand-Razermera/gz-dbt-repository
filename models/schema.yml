@@ -28,4 +28,18 @@ sources:
             tests:
              - unique
              - not_null
+      - name: adwords
+        identifier: raw_gz_adwords
+        description: rename camPNG to campaign_name & changer le datatype du ads_cost en float64
+      - name: bing
+        identifier: raw_gz_bing
+        description: rename camPNG to campaign_name & changer le datatype du ads_cost en float64
+        
+      - name: criteo
+        identifier: raw_gz_criteo
+        description: rename camPNG to campaign_name & changer le datatype du ads_cost en float64
+      - name: facebook
+        identifier: raw_gz_facebook
+        description: rename camPNG to campaign_name & changer le datatype du ads_cost en float64
+
 
